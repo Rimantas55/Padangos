@@ -1,0 +1,23 @@
+.row {
+	border: 1px solid black;
+}
+.col-4, .col-2, .col-6 {
+	border: 2px solid green;
+}
+button {
+	float: right;
+	width: 180px;
+	height: 40px;
+	margin: 5px 3px 0px 0px;
+	padding-top: 5px;
+	text-align: center;
+}
+
+#resultas {
+	border: 1px solid green;
+	height: 80px;
+	widows: 120px;
+	background-color: green;
+	margin-top: 80px;
+
+}

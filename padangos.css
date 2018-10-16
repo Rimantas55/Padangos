@@ -2,7 +2,7 @@ body {
 	background-color: lightgrey;
 }
 .container {
-	background-image: url('car.jpg');
+	background-image: url('img/car.jpg');
 	height: 1000px;
 }
 img {margin: 0px;
@@ -41,7 +41,7 @@ button {
 #rezultatas {
 	border: 1px solid green;
 	height: 120px;
-	widows: 120px;
+	widows: 120px; /*  <<<     Kas tai?   */
 	background-color: white;
 	margin-top: 35px;
 	text-align: center;

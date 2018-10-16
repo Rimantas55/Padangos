@@ -16,7 +16,7 @@ function skaiciuoti() {
     var skaiciuoti = Math.round(a + b + c);
 
     div_skaiciuoti_rez.innerHTML = skaiciuoti + " cm ";
-    div_skaiciuoti_rez = skaiciuoti;
+
     console.log('Skaičiavimo rezultatas: ' + skaiciuoti);
 
 

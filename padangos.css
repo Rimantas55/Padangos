@@ -1,23 +1,86 @@
-.row {
-	border: 1px solid black;
+body {
+	background-color: lightgrey;
 }
-.col-4, .col-2, .col-6 {
-	border: 2px solid green;
+.container {
+	background-image: url('car.jpg');
+	height: 1000px;
 }
-button {
-	float: right;
-	width: 180px;
-	height: 40px;
-	margin: 5px 3px 0px 0px;
-	padding-top: 5px;
+img {margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+	max-height: 100px;
 	text-align: center;
 }
 
-#resultas {
+.row {
+	border: 1px solid black;
+}
+.col-5, .col-2, .col-6 {
+	border: 2px solid green;
+}
+
+.duomenys {
+	border: 1px solid brown;
+	background-color: grey;
+	margin-top: 8px;
+	margin-left: 45px;
+	margin-right: 45px;
+	color: white;
+	text-align: center;
+	padding-bottom: 8px;
+	
+}
+
+/*--Mygtukas ir rezultato div--*/
+button {
+	height: 40px;
+	margin: 5px 3px 0px 0px;
+	text-align: center;
+}
+
+#rezultatas {
 	border: 1px solid green;
-	height: 80px;
+	height: 120px;
 	widows: 120px;
-	background-color: green;
-	margin-top: 80px;
+	background-color: white;
+	margin-top: 35px;
+	text-align: center;
+	padding-top: 40px;
+}
+
+/*--Teksto sriftas -*/
+h4 {
+	text-align: center;
+}
+p {
+	font-size: 12pt;
+	text-align: justify;
+	background-color: yellow;
+}
+
+/*--Navigacija--*/
+a {
+	background-color: black;
+	color: white;
+	text-align: center;
+	height: 35px;
+	padding-top: 5px;
+	border-left: 3px solid white;
 
 }
+a:hover {
+	background-color: blue;
+	text-decoration: none;
+	color: white;
+	border-bottom: 3px solid orange;
+}
+
+#copyR {
+	text-align: center;
+	color:white;
+	font-size: 25pt;
+}
+.col-12 {
+	background-color: black;
+}
+

@@ -3,7 +3,7 @@ body {
 }
 .container {
 	background-image: url('img/car.jpg');
-	height: 1000px;
+	/*height: 750px;*/ 
 }
 img {margin: 0px;
 	padding: 0px;
@@ -17,11 +17,13 @@ img {margin: 0px;
 }
 .col-5, .col-2, .col-6 {
 	border: 2px solid green;
+	height: 2000px;
 }
 
 .duomenys {
 	border: 1px solid brown;
-	background-color: grey;
+	background-color: 
+grey;
 	margin-top: 8px;
 	margin-left: 45px;
 	margin-right: 45px;
@@ -40,12 +42,12 @@ button {
 
 #rezultatas {
 	border: 1px solid green;
-	height: 120px;
-	widows: 120px; /*  <<<     Kas tai?   */
+	height: 140px;
+	max-width: 100%; 
 	background-color: white;
 	margin-top: 35px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 20px;
 }
 
 /*--Teksto sriftas -*/

@@ -1,85 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
-	<html>
-		<head>
-			<title>Padangos</title>
-			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-			<link rel="stylesheet" type="text/css" href="padangos.css">
-
-
-		</head>
-		<body>
-			<div class="container">	
-				<div>
-					<img src="wheel.jpg">
-					<!-- <img src="banner.jpg">
-					<img src="tires.jpg">
-					<img src="banner1.jpg"> -->
-				</div>	
-					<div class="row">
-					<a class="col-12 col-md-3" href="#" target="_blank">
-						Apie
-					</a>
-					<a class="col-12 col-md-3" href="#" target="_blank">
-						Naujienos
-					</a>
-					<a class="col-12 col-md-3" href="#" target="_blank">
-						Parduotuve
-					</a>
-					<a class="col-12 col-md-3" href="#" target="_blank">
-						Kontaktai
-					</a>
-				</div>
-				<div class="row">
-					<div class="col-md-2 ">
-						<h4>Instrukcija<h4>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					</div>
-					<div class="col-me-5 ">
-						<h4>Suveskite duomenys</h4>
-						<div class="duomenys"> 
-							<h5>Padangos aukstis (mm) (50-300mm)</h5>
-							<input id="padangos_aukstis" placeholder="Iveskite auksti (cm)">
-							</input>
-						</div>
-						<div class="duomenys"> 
-							<h5>Ratlankio skersmuo (")(13"-24")</h5>
-							<input id="ratlankio_skersmuo" placeholder="Iveskite skersmeni" >
-							</input>
-						</div>
-						<div class="duomenys"> 
-							<h5>Arkos spindulys (cm) (x)</h5>
-							<input id="arkos_spindylys" placeholder="Iveskite arkos spinduli">
-							</input>
-						</div>
-						<div class="duomenys"> 
-							<h5>Iveskite kilometrus</h5>
-							<input id="kilometras" placeholder="pvz: 100">
-							</input>
-						</div>
-					</div>
-					<div class="col-md-5 ">
-						<div id="rezultatas"><h4>Rezultatas</h4>
-						</div> <!-- telspa arba netelpa, uzsidega raudona arba zalia su atsakymu containeris)-->
-						<div>
-							<button class="btn btn-primary btn-block" onclick="skaiciuoti()">Skaiciuoti</button>
-						</div>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-12" id="copyR">
-						<div >
-							<h6>&copy; 2015 RapidTables.com</h6>
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-			<script src="padangos.js"></script>
-		</body>
-=======
 <html>
 <head>
     <title>Padangos</title>
@@ -97,16 +16,15 @@
         <a class="col-md-3" href="#" target="_blank">Kontaktai</a>
     </div>
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 order-last">
             <h4>Instrukcija</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
                 labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                 laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                 voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                nonproident, sunt in culpa qui officia deserunt mollit anim id est laborum.  </p>
         </div>
         <div class="col-md-5">
-            <!-- Iš HTML pusės nėra prasmės antrasčių ar footerio žymėti su H* tagu, kaip header. verčiau rinktis div arba span ir jam suteikti stilių -->
             <h4>Suveskite duomenys</h4>
             <div class="duomenys">
                 <h5>Padangos aukstis (mm) (50-300mm)</h5>
@@ -120,12 +38,15 @@
                 <h5>Arkos spindulys (cm) (x)</h5>
                 <input id="arkos_spindylys" placeholder="Iveskite arkos spinduli">
             </div>
+            <div class="duomenys">
+                <h5>Nuvaziuoti kilometrai </h5>
+                <input id="kilometras" placeholder="Iveskite kilometrus">
+            </div>
         </div>
         <div class="col-md-5">
             <div id="rezultatas">
                 <h4>Rezultatas</h4>
             </div>
-            <!-- telspa arba netelpa, uzsidega raudona arba zalia su atsakymu containeris)-->
             <button class="btn btn-primary btn-block" onclick="skaiciuoti()">Skaiciuoti</button>
         </div>
     </div>
@@ -137,6 +58,5 @@
 </div>
 <script src="padangos.js"></script>
 </body>
->>>>>>> 2afcae3290192a572706c24412159aa0cf094827
 </html>
 

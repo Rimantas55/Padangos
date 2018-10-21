@@ -42,7 +42,7 @@ button {
 
 #rezultatas {
 	border: 1px solid green;
-	height: 140px;
+	min-height: 140px;
 	max-width: 100%; 
 	background-color: white;
 	margin-top: 35px;
